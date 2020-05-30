@@ -1,5 +1,5 @@
 "use strict";
-require('dotenv').config({path: __dirname + './../.env'})
+//require('dotenv').config({path: __dirname + './../.env'})
 const express = require('express');
 const server = express();
 const ApiHandler = require('../API/report')
