@@ -1,0 +1,7 @@
+{
+    "errroCode":{
+        "500":"Sorry! Something went wrong. Please try after sometime.",
+        "404":"Resource not found",
+        "201":"Data inserted into Db."
+    }
+}
