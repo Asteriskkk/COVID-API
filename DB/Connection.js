@@ -1,5 +1,5 @@
 // import and use mongodb.MongoClient
-require('dotenv').config({path: __dirname + './../.env'})
+//require('dotenv').config({path: __dirname + './../.env'})
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 const dbConnectionUrl = `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0-loxzq.mongodb.net/test?retryWrites=true&w=majority`;
