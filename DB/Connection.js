@@ -3,7 +3,8 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 const dbConnectionUrl = `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0-loxzq.mongodb.net/test?retryWrites=true&w=majority`;
-
+console.log(dbConnectionUrl)
+console.log("env",process.env)
 // connection with mongo db atlas
 function initialize(dbName, dbCollectionName, successCallback, failureCallback) {
 	MongoClient.connect(dbConnectionUrl, function (err, dbInstance) {
